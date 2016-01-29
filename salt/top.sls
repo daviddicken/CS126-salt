@@ -1,3 +1,3 @@
 base:
-  '*'
-    -  /srv/salt/users.david
+  '*':
+    -  users.david
