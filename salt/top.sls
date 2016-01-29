@@ -1,3 +1,3 @@
-
-role:webserver":
--packages.tree
+base:
+  '*'
+    - users
