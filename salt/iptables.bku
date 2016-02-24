@@ -1,0 +1,19 @@
+iptables:
+  pkg.installed
+  service.running:
+    - enable: True
+
+iptables-services:
+  pkg.installed:
+   - name: iptables
+
+iptables:
+file.managed
+  - name: /etc/sysconfig/iptables
+  - source: salt://iptables.sls
+
+firewalld
+service.dead
+  - enable: True
+
+

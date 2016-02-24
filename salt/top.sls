@@ -7,4 +7,8 @@ base:
     -  selinux
     -  iptables
     -  packages.vim
+    -  packages.nfs
+    -  packages.nfs-services
     -  config.nfs-config
+    -  sshd
+    -  keys.keys
