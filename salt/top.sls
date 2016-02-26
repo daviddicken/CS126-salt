@@ -12,3 +12,5 @@ base:
     -  config.nfs-config
     -  sshd
     -  keys.keys
+    -  config.samba
+    -  smb
